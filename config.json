@@ -1,0 +1,4 @@
+{
+  "badWords": ["badword1", "badword2", "badword3", "(?i)bad\\s?word\\d"], 
+  "blockedWregex": ["forbidden\\.com", "evilsite\\.net"]
+}
