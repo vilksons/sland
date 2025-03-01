@@ -1,6 +1,6 @@
 /// @MySQL : mysql.js
 
-const mysql = require('mysql');
+const mysql = require('mysql2');
 require('colors');
 
 const connection = mysql.createConnection({

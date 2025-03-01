@@ -26,19 +26,6 @@ app.selectMenus = new Collection();
 
 module.exports = app;
 
-console.log(`
-                                           ooooo ooooo     ooo ooo        ooooo
-                                           \`888' \`888'     \`8' \`88.       .888'
- .ooooo.  oo.ooooo.   .ooooo.  ooo. .oo.    888   888       8   888b     d'888
-d88' \`88b  888' \`88b d88' \`88b \`888P"Y88b   888   888       8   8 Y88. .P  888
-888   888  888   888 888ooo888  888   888   888   888       8   8  \`888'   888
-888   888  888   888 888    .o  888   888   888   \`88.    .8'   8    Y     888
-\`Y8bod8P'  888bod8P' \`Y8bod8P' o888o o888o o888o    \`YbodP'    o8o        o888o
-           888
-          o888o
-
-` .yellow);
-
 const token = process.env.APP_TOKEN;
 const config = require('./config.json');
 
